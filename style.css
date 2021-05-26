@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.navbar{
+    background: darkkhaki;
+    width: 100%;
+    border-radius: 2px;
+    height:60px;
+}
+
+nav .logo{
+    line-height: 60px;
+    margin-left: 15px;
+    color: aqua;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin: 20px;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    padding: 5px;
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+nav ul a:hover{
+    background: rgb(142, 166, 209);
+    color: red;
+}
+
+.run{
+    background: rgb(142, 166, 209);
+    /* color: red; */
+}
+
+.container{
+    height: 350px;
+    width: 100vw;
+    /* background:url('https://source.unsplash.com/1600x900/?water') no-repeat center center/cover; */
+    background: linear-gradient(45deg,#007b7b 50%,#ffe5ea 50%);
+    margin-top: 5px;
+}
+
+.container .box{
+    display: flex;
+    width: 480px;
+    justify-content: center;
+    height: 347px;
+    text-align: center;
+    /* background:url('https://source.unsplash.com/1600x900/?fruites,vegetable') no-repeat center center/cover; */
+    /* border: 2px solid black; */
+    flex-direction: column;
+}
+.container .box h1{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 1px 3px black;
+}
+.container .box p{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 1000px;
+    /* background-color: cornflowerblue; */
+}
+.Item{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 1px;
+    height: 320px;
+}
+.ImageBox
+{
+    height: 200px;
+    margin: 6px;
+}
+.ImageBox img{
+    height: 200px;
+    width: 438px;
+}
+.Item h2{
+    color: rgb(8, 8, 8);
+    font-size: 25px;
+    text-align: center;
+}
+.Item p{
+    color: rgb(8, 8, 8);
+    font-size: 15px;
+    text-align: justify;
+
+}
+.textbox h2 span{
+    color: blue;
+}
+.lecture{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: rgb(243, 236, 244);
+    height: 300px;
+    grid-gap: 5px;
+}
+
+.abd{
+    float: left;
+    font-size: 15px;
+    /* margin-top: 30px; */
+    
+}
+.bcd{
+    float: left;
+    font-size: 15px;
+    /* margin-top: 30px; */
+
+}
+.cde{
+    float: left;
+    font-size: 15px;
+    /* margin-top: 30px; */
+
+}
+
+#video-Lecture .main{
+    margin: 20px;
+}
+.Video-Lecture .main{
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background: black;
+    border: 1px solid black;
+
+    color: white;
+}
+.main,.pdf-main, .Ram{
+    margin: 8px;
+    padding: 4px;
+}
+
+
+.pdf-main{
+    width: 130px;
+    /* margin-top: 40px; */
+}
+.main-notes{
+    padding: 5px;
+}
+.main-notes .Ram{
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    color: white;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    background: #111;
+}
